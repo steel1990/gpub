@@ -30,7 +30,7 @@ require('fs').writeFileSync(currentProjectPackagePath, JSON.stringify(currentPro
 var cmd = [
     'cd ' + process.cwd(),
     'git add package.json',
-    'git commit "auto commit by gpub"',
+    'git commit -m "auto commit by gpub"',
     'git push origin master'
 ];
 
