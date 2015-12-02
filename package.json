@@ -1,0 +1,30 @@
+{
+  "name": "gpub",
+  "version": "0.1.0",
+  "description": "git publish tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gpub": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steel1990/gpub.git"
+  },
+  "keywords": [
+    "git",
+    "publish"
+  ],
+  "author": "lbbsteel@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steel1990/gpub/issues"
+  },
+  "homepage": "https://github.com/steel1990/gpub#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "shelljs": "^0.5.3"
+  }
+}
