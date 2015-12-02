@@ -41,5 +41,5 @@ if (program.daily) {
     cmd.push('git push origin publish/' + currentProjectPackage.version);
 }
 
-console.log(cmd);
-// shell.exec(cmd.join(' && '));
+// console.log(cmd);
+shell.exec(cmd.join(' && '));
